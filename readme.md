@@ -1,4 +1,4 @@
-# node-express-jade-h5bp
-"Creatively" named boilerplate/framework/skeleton for use on html5 projects with a node/express backend. 
+# multilink
+Exploring a few ideas behind game/sprite/animation techniques with node.js/html5/css3 and my boy JSCRIPT.
 
-I made this for my own use. I expect this to evolve as my projects do, but this is a nice way to get off the ground and running with a new project. 
+Named multi"link' after the sprites that I used in this project.

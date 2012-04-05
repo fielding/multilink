@@ -1,6 +1,15 @@
 extends layout
 
-block head
+block scripts
+block styles
+  link(rel='stylesheet', href='css/sprite.css')
 
 block content
-  h2 Hello World!
+  div#spawningPool
+  
+  div#dialog-form(title="Login:")
+    form
+      fieldset
+        label(for="nick", style="display: block;") Nick:
+        input#nick(type="text", name="nick", class="text ui-widget-content ui-corner-all", style="margin-bottom:12px; width:95%; padding: .4em;")
+        a#submit(role="button") Submit

@@ -1,5 +1,17 @@
 // dependencies
-var express = require('express');
+var express = require('express'),
+    io      = require('socket.io');
+
+var serverInfo = {
+  ip: "localhost",
+  port: 8080
+};
+
+var serverConfig = {
+  maxPlayers: 20,
+  speed: 20
+};
+
 var app = express();
 
 // config
@@ -21,3 +33,4 @@ app.get('/', function(req, res) {
 
 
 app.listen(8080);
+io.listen(app);
